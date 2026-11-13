@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hollister Corporation Umbrellas</title>
+<meta name="description" content="Hollister Corporation makes custom logo umbrellas for companies, banks, NGOs and campaigns. Wholesale only, from Chawkbazar, Dhaka, delivered across Bangladesh.">
+<meta name="theme-color" content="#081a4a">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Hollister Corporation">
+<meta property="og:title" content="Hollister Corporation | Customize Umbrella Manufacturer">
+<meta property="og:description" content="Custom logo umbrellas for companies, banks, NGOs and campaigns. Wholesale only, from Chawkbazar, Dhaka.">
+<meta property="og:image" content="img/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Hollister Corporation","description":"Wholesale manufacturer and supplier of custom logo promotional umbrellas.","image":"img/share.jpg","logo":"img/logo.png","telephone":"+8801817003111","email":"brandbrolly@gmail.com","address":{"@type":"PostalAddress","streetAddress":"88/89 Chawkmogultuly, Chawkbazar","addressLocality":"Dhaka","postalCode":"1211","addressCountry":"BD"},"areaServed":"BD","sameAs":["https://www.facebook.com/sardersumbrellaproviderbd/"]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wdth,wght@75..125,400..800&family=Hind+Siliguri:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* Layout idea: the umbrella seen from above (8 panels) is the page's one motif;
+     deep royal navy bands alternate with cool paper, gold marks only what you can act on.
+     Motion lives in the hero (umbrella opens, rain stays off it); everything else moves quietly. */
+  color-scheme: light;
+  --navy:#081a4a;
+  --navy-2:#0e2a73;
+  --royal:#1a45c4;
+  --gold:#e3a51f;
+  --red:#cf1f2e;
+  --paper:#f4f6fb;
+  --card:#ffffff;
+  --ink:#0b1531;
+  --muted:#52607f;
+  --line:#dbe1ee;
+  --on-navy:#eef2ff;
+  --on-navy-muted:#aab7dc;
+  --display:"Anek Bangla","Hind Siliguri","Noto Sans Bengali",system-ui,sans-serif;
+  --body:"Hind Siliguri","Anek Bangla","Noto Sans Bengali",system-ui,sans-serif;
+  --wrap:1180px;
+  --r:14px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.01em}
+p{margin:0}
+[hidden]{display:none !important}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:6px}
+html[lang="en"] .l-bn,html[lang="bn"] .l-en{display:none}
+
+/* top strip */
+.strip{background:var(--navy);color:var(--on-navy-muted);font-size:14px}
+.strip .wrap{display:flex;flex-wrap:wrap;gap:6px 22px;align-items:center;justify-content:space-between;padding-top:7px;padding-bottom:7px}
+.strip a{text-decoration:none;color:var(--on-navy)}
+.strip .nums{display:flex;flex-wrap:wrap;gap:4px 20px}
+.lang{display:inline-flex;border:1px solid rgba(255,255,255,.28);border-radius:999px;overflow:hidden}
+.lang button{font:600 13px var(--body);background:transparent;color:var(--on-navy-muted);border:0;padding:4px 12px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--gold);color:#221600}
+
+/* header */
+header.bar{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+header.bar .wrap{display:flex;align-items:center;gap:20px;padding-top:8px;padding-bottom:8px;position:relative}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;margin-right:auto}
+.brand img{height:58px;width:auto}
+.brand span{font:800 19px/1.1 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--navy)}
+.brand small{display:block;font:500 12px var(--body);letter-spacing:.04em;text-transform:none;color:var(--muted);margin-top:2px}
+nav.main{display:flex;gap:26px}
+nav.main a{text-decoration:none;font-weight:500;font-size:16px;color:var(--ink);padding:6px 0;border-bottom:2px solid transparent}
+nav.main a:hover,nav.main a[aria-current="page"]{border-color:var(--gold)}
+.menu-btn{display:none;width:44px;height:44px;border:1px solid var(--line);border-radius:10px;background:var(--card);cursor:pointer;place-items:center}
+.menu-btn svg{width:22px;height:22px}
+.btn{white-space:nowrap;display:inline-flex;align-items:center;gap:10px;font:700 16px var(--display);letter-spacing:.02em;text-decoration:none;border-radius:999px;padding:13px 24px;border:2px solid transparent;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn.gold{background:var(--gold);color:#201400;box-shadow:0 10px 24px -12px rgba(227,165,31,.9)}
+.btn.gold:hover{box-shadow:0 16px 30px -12px rgba(227,165,31,1)}
+.btn.ghost{border-color:rgba(255,255,255,.45);color:var(--on-navy)}
+.btn.navy{background:var(--navy);color:#fff}
+.btn.line{border-color:var(--navy);color:var(--navy)}
+.btn.small{padding:9px 18px;font-size:15px}
+.btn svg{width:19px;height:19px;flex:none}
+
+/* hero */
+.hero{background:
+   radial-gradient(900px 520px at 78% 46%, rgba(40,90,230,.55), transparent 62%),
+   linear-gradient(180deg,var(--navy) 0%, #061338 100%);
+  color:var(--on-navy);overflow:hidden;position:relative}
+#rain{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding-top:64px;padding-bottom:72px;position:relative;z-index:1}
+.eyebrow{font:600 13px var(--display);letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.hero h1{font-size:clamp(2.5rem,5.6vw,4.7rem);font-weight:800;font-stretch:112%;margin:16px 0 20px}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p.lead{font-size:1.14rem;color:var(--on-navy-muted);max-width:33em}
+.cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+.proof{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:38px;padding-top:22px;border-top:1px solid rgba(255,255,255,.16);font-size:15px;color:var(--on-navy-muted)}
+.proof b{display:block;font:700 1.25rem var(--display);color:#fff}
+.hero .txt > *{animation:rise .7s cubic-bezier(.2,.8,.2,1) both}
+.hero .txt > :nth-child(2){animation-delay:.08s}
+.hero .txt > :nth-child(3){animation-delay:.16s}
+.hero .txt > :nth-child(4){animation-delay:.24s}
+.hero .txt > :nth-child(5){animation-delay:.32s}
+@keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+
+/* umbrella */
+.stage{position:relative;display:grid;place-items:center}
+.stage svg{width:min(100%,460px);height:auto;overflow:visible;filter:drop-shadow(0 34px 40px rgba(0,0,0,.45))}
+#spin{transform-origin:0 0;transition:transform .25s linear}
+#opener{transform-origin:0 0;animation:open 1.5s cubic-bezier(.16,.9,.22,1.06) both}
+@keyframes open{0%{transform:scale(.08) rotate(-200deg)}55%{transform:scale(1.05) rotate(8deg)}100%{transform:none}}
+#brolly .pan{transform-origin:0 0;animation:pan .55s cubic-bezier(.2,.8,.2,1) both;transition:fill .45s ease}
+@keyframes pan{from{opacity:0;transform:scale(.55)}to{opacity:1;transform:none}}
+#brolly .lg{animation:lgin .5s ease both;transition:fill .45s ease}
+@keyframes lgin{from{opacity:0}to{opacity:1}}
+.panel-ctl{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-radius:var(--r);padding:16px 18px;margin-top:8px;display:grid;gap:12px;backdrop-filter:blur(6px)}
+.panel-ctl h2{font-size:1.05rem;font-weight:700;color:#fff}
+.row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.row > span{font-size:14px;color:var(--on-navy-muted);min-width:5.2em}
+.sw{display:flex;flex-wrap:wrap;gap:7px}
+.sw button{width:28px;height:28px;border-radius:50%;border:2px solid rgba(255,255,255,.35);cursor:pointer;padding:0;transition:transform .15s ease}
+.sw button:hover{transform:scale(1.15)}
+.sw button[aria-pressed="true"]{box-shadow:0 0 0 3px var(--gold);border-color:#fff}
+.panel-ctl input{flex:1;min-width:140px;font:500 16px var(--body);padding:9px 12px;border-radius:9px;border:1px solid rgba(255,255,255,.3);background:rgba(4,12,40,.55);color:#fff}
+.panel-ctl input::placeholder{color:#8b98bf}
+.up{font:600 14.5px var(--display);color:#201400;background:var(--gold);border:0;border-radius:9px;padding:9px 14px;cursor:pointer}
+.up.ghost{background:transparent;color:var(--on-navy);border:1px solid rgba(255,255,255,.35)}
+.up-note{font-size:13.5px;color:var(--on-navy-muted)}
+
+/* page head for inner pages */
+.pagehead{background:linear-gradient(180deg,var(--navy),#061338);color:#fff;padding:56px 0 50px}
+.pagehead h1{font-size:clamp(2.2rem,4.6vw,3.6rem);font-weight:800;font-stretch:110%}
+.pagehead p{color:var(--on-navy-muted);margin-top:10px;max-width:38em}
+
+/* sections */
+section{padding:84px 0}
+.head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 48px;align-items:end;margin-bottom:40px}
+.head h2,.h2{font-size:clamp(1.9rem,3.6vw,3rem);font-weight:800;font-stretch:108%;color:var(--navy)}
+.head p{color:var(--muted);max-width:34em}
+.kicker{font:600 13px var(--display);letter-spacing:.2em;text-transform:uppercase;color:var(--royal);display:block;margin-bottom:12px}
+.more{display:inline-flex;gap:8px;align-items:center;margin-top:28px;font:700 16px var(--display);color:var(--royal);text-decoration:none}
+.more:hover{text-decoration:underline}
+
+.types{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.type{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:transform .25s ease,box-shadow .25s ease}
+.type:hover{transform:translateY(-6px);box-shadow:0 26px 44px -28px rgba(8,26,74,.5)}
+.type .ph{aspect-ratio:4/3;background:#fff;overflow:hidden;cursor:zoom-in}
+.type .ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.type:hover .ph img{transform:scale(1.06)}
+.type .ph.contain img{object-fit:contain;padding:14px}
+.type .tx{padding:20px 22px 24px;border-top:3px solid var(--gold);display:grid;gap:8px}
+.type h3{font-size:1.35rem;font-weight:700;color:var(--navy)}
+.type p{color:var(--muted);font-size:16px}
+
+/* work strip (moving) */
+.strip-work{background:var(--navy);padding:54px 0;overflow:hidden}
+.strip-work .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:12px 24px;margin-bottom:26px}
+.strip-work h2{color:#fff;font-size:clamp(1.6rem,3vw,2.3rem);font-weight:800}
+.strip-work .more{color:var(--gold);margin:0}
+.belt{display:flex;gap:16px;width:max-content;animation:belt 48s linear infinite}
+.belt:hover{animation-play-state:paused}
+@keyframes belt{to{transform:translateX(-50%)}}
+.belt figure{margin:0;width:300px;aspect-ratio:1/1;border-radius:var(--r);overflow:hidden;flex:none;cursor:zoom-in}
+.belt img{width:100%;height:100%;object-fit:cover}
+
+/* work grid */
+.work{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.shot{position:relative;border-radius:var(--r);overflow:hidden;margin:0;background:var(--navy);cursor:zoom-in}
+.shot img{width:100%;height:100%;object-fit:cover;aspect-ratio:1/1;transition:transform .6s ease}
+.shot:hover img{transform:scale(1.06)}
+.shot figcaption{position:absolute;inset:auto 0 0 0;padding:44px 16px 13px;background:linear-gradient(transparent,rgba(5,14,44,.88));color:#fff;font-size:14.5px;line-height:1.35}
+.shot figcaption b{display:block;font:700 1.02rem var(--display)}
+.note{margin-top:18px;font-size:14.5px;color:var(--muted)}
+
+/* about */
+.about .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.about p{color:var(--muted);margin-top:16px;max-width:36em}
+.pillars{display:grid;gap:14px}
+.pillars div{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:12px;padding:18px 22px}
+.pillars h3{font-size:1.25rem;font-weight:800;color:var(--navy);letter-spacing:.06em;text-transform:uppercase}
+.pillars p{margin-top:4px;font-size:16px}
+
+/* serve */
+.serve{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border:1px solid var(--line);border-radius:var(--r);background:var(--card);overflow:hidden}
+.serve div{padding:26px 24px;border-right:1px solid var(--line)}
+.serve div:last-child{border-right:0}
+.serve h3{font-size:1.2rem;font-weight:700;color:var(--navy);margin-bottom:8px}
+.serve p{font-size:15.5px;color:var(--muted)}
+.serve svg{width:34px;height:34px;color:var(--royal);margin-bottom:14px}
+
+/* process */
+.process{background:var(--navy);color:var(--on-navy)}
+.process .head h2{color:#fff}
+.process .head p{color:var(--on-navy-muted)}
+.process .kicker{color:var(--gold)}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;counter-reset:s;list-style:none;margin:0;padding:0;position:relative}
+.steps::before{content:"";position:absolute;left:0;right:0;top:0;height:2px;background:var(--gold);transform-origin:left;transition:transform 1.8s cubic-bezier(.3,.7,.2,1)}
+.steps li{counter-increment:s;border-top:2px solid rgba(255,255,255,.22);padding-top:18px;transition:opacity .6s ease}
+.steps li::before{content:"0" counter(s);font:800 2.6rem/1 var(--display);color:var(--gold);font-variant-numeric:tabular-nums;display:block;margin-bottom:12px}
+.steps h3{font-size:1.22rem;font-weight:700;color:#fff;margin-bottom:6px}
+.steps p{font-size:15.5px;color:var(--on-navy-muted)}
+.steps.armed::before{transform:scaleX(0)}
+.steps.armed li{opacity:.25}
+.steps.armed.play::before{transform:none}
+.steps.armed.play li{opacity:1}
+.steps.play li:nth-child(2){transition-delay:.4s}
+.steps.play li:nth-child(3){transition-delay:.8s}
+.steps.play li:nth-child(4){transition-delay:1.2s}
+
+/* blog */
+.posts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.posts.all{grid-template-columns:repeat(2,minmax(0,1fr))}
+.pcard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;text-decoration:none;display:flex;flex-direction:column;transition:transform .25s ease,box-shadow .25s ease}
+.pcard:hover{transform:translateY(-6px);box-shadow:0 26px 44px -28px rgba(8,26,74,.5)}
+.pcard .cv{height:150px;background:var(--navy);overflow:hidden;position:relative}
+.pcard .cv svg{position:absolute;width:260px;height:260px;right:-40px;top:-56px;transition:transform .8s ease}
+.pcard:hover .cv svg{transform:rotate(45deg)}
+.pcard .cv span{position:absolute;left:20px;bottom:14px;font:600 12px var(--display);letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.pcard .tx{padding:20px 22px 24px;display:grid;gap:8px}
+.pcard h3{font-size:1.28rem;font-weight:700;color:var(--navy);line-height:1.2}
+.pcard p{color:var(--muted);font-size:15.5px}
+.pcard i{font-style:normal;font:700 15px var(--display);color:var(--royal)}
+
+article.post{padding:56px 0 30px}
+article.post .wrap{max-width:760px}
+article.post .back{font:600 15px var(--display);color:var(--royal);text-decoration:none}
+article.post h1{font-size:clamp(2rem,4.4vw,3.2rem);font-weight:800;color:var(--navy);margin:16px 0 10px;line-height:1.12}
+article.post .meta{font-size:14.5px;color:var(--muted);margin-bottom:26px}
+article.post h2{font-size:1.45rem;font-weight:700;color:var(--navy);margin:30px 0 8px;line-height:1.2}
+article.post p{margin-top:12px;font-size:1.07rem;color:#263252}
+article.post ul{margin:12px 0 0;padding-left:1.2em;font-size:1.07rem;color:#263252}
+article.post li{margin-top:6px}
+
+
+/* videos */
+.vids{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.vid{margin:0;border-radius:18px;overflow:hidden;background:#000;aspect-ratio:9/16;box-shadow:0 30px 50px -30px rgba(8,26,74,.6)}
+.vid video{width:100%;height:100%;object-fit:cover;display:block}
+/* reviews */
+.revs{display:grid;grid-template-columns:1fr 1fr .8fr;gap:22px}
+.rev{margin:0;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px 26px 22px;display:flex;flex-direction:column;gap:16px}
+.rev::before{content:"\201C";font:800 4rem/.6 var(--display);color:var(--gold);height:26px}
+.rev blockquote{margin:0;font-size:1.08rem;color:var(--ink);flex:1}
+.rev figcaption{font-size:14.5px;color:var(--muted)}
+.rev figcaption b{display:block;font:700 1.02rem var(--display);color:var(--navy)}
+.rev.stat{background:var(--navy);border-color:var(--navy);justify-content:center}
+.rev.stat::before{display:none}
+.rev.stat strong{font:800 3.4rem/1 var(--display);color:var(--gold)}
+.rev.stat p{color:var(--on-navy)}
+.rev.stat a{color:var(--gold);font:700 15.5px var(--display)}
+
+/* cta band */
+.band{background:var(--gold);padding:54px 0}
+.band .wrap{display:flex;flex-wrap:wrap;gap:20px 40px;align-items:center;justify-content:space-between}
+.band h2{font-size:clamp(1.6rem,3vw,2.4rem);font-weight:800;color:#201400;max-width:18em}
+.band .cta{margin:0}
+
+/* quote */
+.quote .grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}
+.contact-list{list-style:none;margin:26px 0 0;padding:0;display:grid;gap:16px}
+.contact-list li{display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start}
+.contact-list .ic{width:44px;height:44px;border-radius:50%;background:var(--navy);color:var(--gold);display:grid;place-items:center}
+.contact-list .ic svg{width:20px;height:20px}
+.contact-list small{display:block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.contact-list a,.contact-list span.v{font:600 1.08rem var(--display);color:var(--navy);text-decoration:none}
+.contact-list a:hover{text-decoration:underline}
+.form{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px;display:grid;grid-template-columns:1fr 1fr;gap:16px;box-shadow:0 24px 50px -30px rgba(8,26,74,.35)}
+.form h3{grid-column:1/-1;font-size:1.5rem;font-weight:800;color:var(--navy)}
+.form label{display:grid;gap:6px;font-size:14px;font-weight:600;color:var(--ink)}
+.form .full{grid-column:1/-1}
+.form input,.form select,.form textarea{font:400 16px var(--body);color:var(--ink);padding:12px 13px;border:1px solid var(--line);border-radius:10px;background:var(--paper);width:100%}
+.form textarea{min-height:92px;resize:vertical}
+.form .pick{grid-column:1/-1;font-size:14.5px;color:var(--muted);background:var(--paper);border:1px dashed var(--line);border-radius:10px;padding:10px 13px}
+.form .pick b{color:var(--navy)}
+.form .btn{grid-column:1/-1;justify-content:center}
+.form .fine{grid-column:1/-1;font-size:13.5px;color:var(--muted);text-align:center}
+
+/* footer */
+footer{background:#050f30;color:var(--on-navy-muted);padding:54px 0 26px;font-size:15.5px}
+footer .cols{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:36px}
+footer img{height:96px;width:auto;margin-bottom:14px}
+footer h3{font:700 14px var(--display);letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}
+footer a{color:var(--on-navy);text-decoration:none}
+footer a:hover{text-decoration:underline}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:7px}
+footer .base{border-top:1px solid rgba(255,255,255,.12);margin-top:36px;padding-top:18px;font-size:14px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+.tag{font:600 13px var(--display);letter-spacing:.22em;text-transform:uppercase;color:#fff}
+
+.float{position:fixed;right:18px;bottom:18px;z-index:30;width:58px;height:58px;border-radius:50%;background:#1faa55;color:#fff;display:grid;place-items:center;box-shadow:0 12px 26px rgba(0,0,0,.3);transition:transform .2s ease}
+.float:hover{transform:scale(1.08)}
+.float svg{width:30px;height:30px}
+
+/* lightbox */
+#lb{position:fixed;inset:0;z-index:50;background:rgba(3,9,30,.92);display:grid;place-items:center;padding:24px;animation:lgin .25s ease both}
+#lb figure{margin:0;max-width:min(92vw,900px);display:grid;gap:12px;animation:zoom .3s cubic-bezier(.2,.8,.2,1) both}
+@keyframes zoom{from{transform:scale(.92)}to{transform:none}}
+#lb img{max-height:78vh;width:auto;margin:0 auto;border-radius:12px;background:#fff}
+#lb figcaption{color:#fff;text-align:center;font-size:15.5px}
+#lb button{position:absolute;top:16px;right:16px;width:46px;height:46px;border-radius:50%;border:1px solid rgba(255,255,255,.4);background:transparent;color:#fff;font-size:24px;cursor:pointer}
+
+/* scroll reveal: only armed by script for content below the fold */
+.rv.wait{opacity:0;transform:translateY(26px)}
+.rv{transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1)}
+
+@media (max-width:960px){
+  nav.main{display:none;position:absolute;left:0;right:0;top:100%;background:var(--card);border-bottom:1px solid var(--line);flex-direction:column;gap:0;padding:6px 24px 14px;box-shadow:0 20px 30px -20px rgba(8,26,74,.4)}
+  nav.main.open{display:flex}
+  nav.main a{padding:12px 0;border-bottom:1px solid var(--line)}
+  .menu-btn{display:grid}
+  .hero .wrap{grid-template-columns:1fr;padding-top:44px;padding-bottom:52px}
+  .head{grid-template-columns:1fr;align-items:start}
+  .types,.posts{grid-template-columns:1fr 1fr}
+  .revs{grid-template-columns:1fr 1fr}
+  .rev.stat{grid-column:1/-1}
+  .vids{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px}
+  .vid{flex:0 0 min(70vw,300px);scroll-snap-align:center}
+  .gallery{grid-template-columns:1fr 1fr}
+  .about .grid{grid-template-columns:1fr}
+  .serve{grid-template-columns:1fr 1fr}
+  .serve div:nth-child(2){border-right:0}
+  .serve div:nth-child(-n+2){border-bottom:1px solid var(--line)}
+  .steps{grid-template-columns:1fr 1fr}
+  .steps::before{display:none}
+  .quote .grid{grid-template-columns:1fr}
+  footer .cols{grid-template-columns:1fr 1fr}
+  section{padding:60px 0}
+}
+@media (max-width:560px){
+  body{font-size:16px}
+  .wrap{padding:0 18px}
+  .brand img{height:46px}
+  .brand span{font-size:16px}
+  .brand small{display:none}
+  header.bar .wrap{gap:10px}
+  header.bar .btn.small{padding:8px 13px;font-size:14px}
+  .types,.revs,.posts,.posts.all,.serve,.steps,.form,footer .cols{grid-template-columns:1fr}
+  .serve div{border-right:0;border-bottom:1px solid var(--line)}
+  .serve div:last-child{border-bottom:0}
+  .form{padding:20px}
+  .strip .nums a:nth-child(2){display:none}
+  .belt figure{width:220px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none !important;transition:none !important}
+  .rv.wait{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<div class="strip">
+  <div class="wrap">
+    <div class="nums">
+      <a href="tel:+8801817003111"><span data-bn="কল:">Call:</span> +880 1817-003111</a>
+      <a href="https://wa.me/8801410340395" target="_blank" rel="noopener">WhatsApp: +880 1410-340395</a>
+    </div>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" id="lang-en" aria-pressed="true">English</button>
+      <button type="button" id="lang-bn" aria-pressed="false">বাংলা</button>
+    </div>
+  </div>
+</div>
+
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="#home">
+      <img src="img/logo.png" alt="Hollister Corporation logo" width="640" height="420">
+      <span>Hollister<small data-bn="কাস্টমাইজড ছাতা প্রস্তুতকারক">Customize Umbrella Manufacturer</small></span>
+    </a>
+    <nav class="main" id="nav" aria-label="Main">
+      <a href="#home" data-nav="home" data-bn="হোম">Home</a>
+      <a href="#umbrellas" data-nav="umbrellas" data-bn="ছাতা">Umbrellas</a>
+      <a href="#about" data-nav="about" data-bn="আমাদের সম্পর্কে">About</a>
+      <a href="#blog" data-nav="blog" data-bn="ব্লগ">Blog</a>
+      <a href="#contact" data-nav="contact" data-bn="যোগাযোগ">Contact</a>
+    </nav>
+    <a class="btn navy small" href="#contact"><span data-bn="কোটেশন নিন">Get a quote</span></a>
+    <button class="menu-btn" id="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<div class="hero" data-v="home" id="hero">
+  <canvas id="rain" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="txt">
+      <span class="eyebrow" data-bn="কাস্টমাইজড ছাতা প্রস্তুতকারক · ঢাকা">Customize umbrella manufacturer · Dhaka</span>
+      <h1 data-bn="আপনার লোগো, <em>বৃষ্টিভেজা প্রতিটি রাস্তায়।</em>">Your logo, <em>on every rainy street.</em></h1>
+      <p class="lead" data-bn="হলিস্টার কর্পোরেশন কোম্পানি, ব্যাংক, এনজিও ও ক্যাম্পেইনের জন্য লোগোসহ প্রমোশনাল ছাতা তৈরি করে। শুধুমাত্র পাইকারি বিক্রয়, ঢাকার চকবাজার থেকে সারা দেশে ডেলিভারি।">Hollister Corporation makes logo-printed promotional umbrellas for companies, banks, NGOs and campaigns. Wholesale only, made in Chawkbazar, Dhaka and delivered across Bangladesh.</p>
+      <div class="cta">
+        <a class="btn gold" href="https://wa.me/8801410340395" target="_blank" rel="noopener" id="wa-hero">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7L4 20Z"/><path d="M9 10c0 3 2 5 5 5"/></svg>
+          <span data-bn="WhatsApp-এ কোটেশন নিন">Get a quote on WhatsApp</span>
+        </a>
+        <a class="btn ghost" href="tel:+8801817003111">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg>
+          <span>+880 1817-003111</span>
+        </a>
+      </div>
+      <div class="proof">
+        <div><b data-bn="শুধু পাইকারি">Wholesale only</b><span data-bn="বাল্ক অর্ডারের জন্য">Built for bulk orders</span></div>
+        <div><b data-bn="১০০% রিকমেন্ড">100% recommend</b><span data-bn="ফেসবুকে ২০৩টি রিভিউ">203 reviews on Facebook</span></div>
+        <div><b data-bn="সারা দেশে">Nationwide</b><span data-bn="পাইকারি অর্ডার ডেলিভারি">Wholesale delivery</span></div>
+      </div>
+    </div>
+
+    <div class="studio">
+      <div class="stage">
+        <svg id="brolly" viewBox="-240 -240 480 480" role="img" aria-label="Umbrella preview from above"></svg>
+      </div>
+      <div class="panel-ctl">
+        <h2 data-bn="নিজের ছাতা সাজিয়ে দেখুন">Try your own colours</h2>
+        <div class="row"><span data-bn="রং ১">Colour 1</span><div class="sw" id="sw-a"></div></div>
+        <div class="row"><span data-bn="রং ২">Colour 2</span><div class="sw" id="sw-b"></div></div>
+        <div class="row"><span data-bn="লোগো">Logo text</span><input id="logo-text" type="text" maxlength="12" value="YOUR LOGO" placeholder="Your brand" data-bn-ph="আপনার ব্র্যান্ড" aria-label="Logo text"></div>
+        <div class="row"><span data-bn="লোগো ফাইল">Logo file</span>
+          <button type="button" class="up" id="logo-btn" data-bn="লোগো আপলোড করুন">Upload your logo</button>
+          <button type="button" class="up ghost" id="logo-clear" hidden data-bn="সরান">Remove</button>
+          <input type="file" id="logo-file" accept="image/png,image/jpeg,image/webp,image/svg+xml" hidden>
+          <span class="up-note" id="logo-note" data-bn="ছবিটা শুধু আপনার স্ক্রিনে দেখায়, কোথাও পাঠানো হয় না।">The image only shows on your screen. It is not sent anywhere.</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE HEAD (inner pages) -->
+<div class="pagehead" id="pagehead" hidden>
+  <div class="wrap"><h1 id="ph-title"></h1><p id="ph-sub"></p></div>
+</div>
+
+<!-- TYPES -->
+<section data-v="home umbrellas">
+  <div class="wrap">
+    <div class="head rv">
+      <div><span class="kicker" data-bn="আমরা যা তৈরি করি">What we make</span>
+      <h2 data-bn="যে কোনো রং, সাইজ ও ডিজাইনের ছাতা">Umbrellas in any colour, size and design</h2></div>
+      <p data-bn="আপনার লোগো ও ব্র্যান্ডের রং অনুযায়ী প্রতিটি অর্ডার তৈরি হয়। ধরন বেছে নিন, পরিমাণ জানান, দাম আমরা জানিয়ে দেবো।">Every order is made to your logo and brand colours. Pick a type, tell us the quantity, and we will send you the price.</p>
+    </div>
+    <div class="types">
+      <article class="type rv">
+        <div class="ph zoom"><img src="img/work-golf-yellow.jpg" alt="Black and yellow two-tone promotional umbrella with printed logo" loading="lazy" width="900" height="900"></div>
+        <div class="tx"><h3 data-bn="প্রমোশনাল লোগো ছাতা">Promotional logo umbrella</h3>
+        <p data-bn="বড় সাইজের সোজা ছাতা, এক বা দুই রঙের প্যানেলে আপনার লোগো প্রিন্ট। ডিলার গিফট ও ক্যাম্পেইনের জন্য সবচেয়ে জনপ্রিয়।">Large straight umbrella with your logo printed on one-colour or two-tone panels. The usual choice for dealer gifts and campaigns.</p></div>
+      </article>
+      <article class="type rv">
+        <div class="ph zoom"><img src="img/uv-fold.jpg" alt="Navy blue folding umbrella with UV coating" loading="lazy" width="828" height="828"></div>
+        <div class="tx"><h3 data-bn="ফোল্ডিং ইউভি ছাতা">Folding UV umbrella</h3>
+        <p data-bn="ব্যাগে রাখার মতো ছোট ভাঁজের ছাতা, রোদ ও বৃষ্টি দুটোর জন্যই। কর্পোরেট গিফট হিসেবে মানানসই।">Folds small enough for a bag and works for both sun and rain. A good fit for corporate gifts.</p></div>
+      </article>
+      <article class="type rv">
+        <div class="ph contain zoom"><img src="img/auto-fold.jpg" alt="Maroon automatic folding umbrella with printed logo" loading="lazy" width="600" height="600"></div>
+        <div class="tx"><h3 data-bn="অটো ফোল্ড ছাতা">Auto-fold umbrella</h3>
+        <p data-bn="এক বোতামে খোলা ও বন্ধ হয়, মজবুত ফ্রেম। প্রিমিয়াম গিফটের জন্য লোগো প্রিন্টসহ।">Opens and closes with one button on a sturdy frame. Made with your logo for premium gifting.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- MOVING WORK STRIP (home) -->
+<div class="strip-work" data-v="home">
+  <div class="wrap">
+    <h2 data-bn="কারখানা থেকে সরাসরি তোলা ছবি">Straight from the factory floor</h2>
+    <a class="more" href="#umbrellas"><span data-bn="সব কাজ দেখুন">See all work</span> →</a>
+  </div>
+  <div class="belt" id="belt"></div>
+</div>
+
+<!-- WORK GRID (umbrellas page) -->
+<section class="work" data-v="umbrellas">
+  <div class="wrap">
+    <div class="head rv">
+      <div><span class="kicker" data-bn="আমাদের কাজ">Our work</span>
+      <h2 data-bn="কারখানা থেকে সরাসরি তোলা ছবি">Straight from the factory floor</h2></div>
+      <p data-bn="সাম্প্রতিক কিছু লোগো প্রিন্টের কাজ। ছবিগুলো আমাদের নিজেদের কারখানায় তোলা, তাই ডেলিভারিতে ঠিক এমন ছাতাই পাবেন। ছবিতে চাপ দিলে বড় হয়ে খুলবে।">Some recent logo print jobs. These photos were taken in our own workshop, so this is the finish you receive. Tap a photo to enlarge it.</p>
+    </div>
+    <div class="gallery" id="gallery">
+      <figure class="shot zoom rv" tabindex="0"><img src="img/work-red-white.jpg" alt="Red and white umbrella with two printed logos" loading="lazy" width="900" height="900"><figcaption><b data-bn="দুই রঙের প্যানেল, দুই লোগো">Two-tone panels, two logos</b><span data-bn="আলাদা প্যানেলে আলাদা প্রিন্ট">Different prints on alternating panels</span></figcaption></figure>
+      <figure class="shot zoom rv" tabindex="0"><img src="img/work-two-tone-red.jpg" alt="Red and silver promotional umbrella with printed logo" loading="lazy" width="900" height="900"><figcaption><b data-bn="বাংলা ও ইংরেজি লোগো">Bangla and English logo</b><span data-bn="লাল ও সিলভার প্যানেল">Red and silver panels</span></figcaption></figure>
+      <figure class="shot zoom rv" tabindex="0"><img src="img/work-green.jpg" alt="Green umbrella with multi-colour printed logo" loading="lazy" width="900" height="900"><figcaption><b data-bn="মাল্টি-কালার প্রিন্ট">Multi-colour print</b><span data-bn="এক রঙের ছাতায় রঙিন লোগো">Full-colour logo on one canopy colour</span></figcaption></figure>
+      <figure class="shot zoom rv" tabindex="0"><img src="img/work-golf-yellow.jpg" alt="Black and yellow umbrella with printed logo" loading="lazy" width="900" height="900"><figcaption><b data-bn="কালো ও হলুদ প্যানেল">Black and yellow panels</b><span data-bn="প্রতিটি হলুদ প্যানেলে লোগো">Logo on every yellow panel</span></figcaption></figure>
+    </div>
+    <p class="note" data-bn="ছাতায় থাকা লোগোগুলো সংশ্লিষ্ট প্রতিষ্ঠানের নিজস্ব সম্পত্তি; এখানে শুধু প্রিন্টের নমুনা হিসেবে দেখানো হয়েছে।">Logos shown on the umbrellas belong to their owners and appear here only as print samples.</p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" data-v="about">
+  <div class="wrap">
+    <div class="grid">
+      <div class="rv">
+        <span class="kicker" data-bn="হলিস্টার কর্পোরেশন">Hollister Corporation</span>
+        <h2 class="h2" data-bn="পুরান ঢাকার চকবাজার থেকে সারা দেশের ব্র্যান্ডের জন্য ছাতা">Umbrellas for the country's brands, made in Chawkbazar</h2>
+        <p data-bn="হলিস্টার কর্পোরেশন একটি পাইকারি ছাতা প্রস্তুতকারক ও সরবরাহকারী প্রতিষ্ঠান। আমরা বিভিন্ন প্রতিষ্ঠান ও কোম্পানির জন্য লোগো, ব্র্যান্ডিং ও ডিজাইন অনুযায়ী কাস্টমাইজড প্রমোশনাল ছাতা তৈরি করি।">Hollister Corporation is a wholesale umbrella manufacturer and supplier. We make customised promotional umbrellas for organisations and companies, built around their logo, branding and design.</p>
+        <p data-bn="আমাদের ঠিকানা ৮৮/৮৯ চক মোগলটুলি, চকবাজার, ঢাকা। ব্যবসা প্রতিষ্ঠান, এনজিও, ব্যাংক ও কর্পোরেট প্রতিষ্ঠানের বাল্ক অর্ডার নেওয়া হয় এবং সারা দেশে ডেলিভারি দেওয়া হয়। আমরা শুধুমাত্র পাইকারি বিক্রয় করি।">You will find us at 88/89 Chawkmogultuly, Chawkbazar, Dhaka. We take bulk orders from businesses, NGOs, banks and corporate houses and deliver across the country. We sell wholesale only.</p>
+      </div>
+      <div class="pillars">
+        <div class="rv"><h3 data-bn="মান">Quality</h3><p data-bn="উচ্চমানের প্রিন্টিং, যাতে লোগো পরিষ্কার দেখা যায়।">High quality printing so your logo reads clearly.</p></div>
+        <div class="rv"><h3 data-bn="স্টাইল">Style</h3><p data-bn="বিভিন্ন রং, সাইজ ও ডিজাইন, আপনার ব্র্যান্ডের সাথে মিলিয়ে।">A range of colours, sizes and designs to match your brand.</p></div>
+        <div class="rv"><h3 data-bn="সুরক্ষা">Protection</h3><p data-bn="রোদ ও বৃষ্টি দুটোতেই কাজে লাগে এমন ছাতা।">Umbrellas that do their job in both sun and rain.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEOS -->
+<section data-v="home umbrellas">
+  <div class="wrap">
+    <div class="head rv">
+      <div><span class="kicker" data-bn="ভিডিও">Video</span>
+      <h2 data-bn="আমাদের বিজ্ঞাপনগুলো দেখুন">Watch our ads</h2></div>
+      <p data-bn="প্রমোশনাল ছাতা কীভাবে আপনার ব্র্যান্ডকে মানুষের হাতে হাতে পৌঁছে দেয়, ছোট ভিডিওতে দেখুন।">Short films on how a promotional umbrella carries your brand from hand to hand.</p>
+    </div>
+    <div class="vids">
+      <figure class="vid rv"><video controls playsinline preload="none" poster="video/ad1.jpg" src="video/ad1.mp4" aria-label="Hollister Corporation promotional umbrella ad"></video></figure>
+      <figure class="vid rv"><video controls playsinline preload="none" poster="video/ad2.jpg" src="video/ad2.mp4" aria-label="Custom logo umbrella ad"></video></figure>
+      <figure class="vid rv"><video controls playsinline preload="none" poster="video/ad3.jpg" src="video/ad3.mp4" aria-label="Umbrella ad in the rain"></video></figure>
+    </div>
+  </div>
+</section>
+
+<!-- WHO -->
+<section data-v="home about">
+  <div class="wrap">
+    <div class="head rv">
+      <div><span class="kicker" data-bn="কাদের জন্য">Who orders from us</span>
+      <h2 data-bn="একটি ছাতা, একটি চলমান বিজ্ঞাপন">One umbrella is a walking billboard</h2></div>
+      <p data-bn="বিলবোর্ড এক জায়গায় থাকে। ছাতা মানুষের হাতে হাতে বাজার, রাস্তা আর অফিসে পৌঁছে যায়।">A billboard stays in one place. An umbrella travels through markets, streets and offices in people's hands.</p>
+    </div>
+    <div class="serve rv">
+      <div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V5l7-2v18M12 9h7v12M8 8v.01M8 12v.01M8 16v.01M15.5 13v.01M15.5 17v.01"/></svg>
+        <h3 data-bn="কোম্পানি ও ব্র্যান্ড">Companies and brands</h3>
+        <p data-bn="ডিলার, রিটেইলার ও কাস্টমারদের জন্য লোগোসহ প্রমোশনাল ছাতা।">Promotional umbrellas with your logo for dealers, retailers and customers.</p>
+      </div>
+      <div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10 12 4l9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/></svg>
+        <h3 data-bn="ব্যাংক ও এনজিও">Banks and NGOs</h3>
+        <p data-bn="প্রতিষ্ঠানের বাল্ক অর্ডার, নির্ধারিত রং ও ডিজাইন অনুযায়ী।">Bulk orders for institutions, made to your set colours and design.</p>
+      </div>
+      <div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9h16v11H4zM12 9v11M4 13h16M8.5 9C6 9 5 4.5 8 4.5S12 9 12 9s1-4.5 4-4.5S18 9 15.5 9"/></svg>
+        <h3 data-bn="কর্পোরেট গিফট">Corporate gifting</h3>
+        <p data-bn="কর্মী ও ক্লায়েন্টদের জন্য ব্র্যান্ডেড ছাতা।">Branded umbrellas for staff and clients.</p>
+      </div>
+      <div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14V9l11-4v13L4 14ZM15 9.5a3 3 0 0 1 0 4M7 15v3.5h3V16"/></svg>
+        <h3 data-bn="ইভেন্ট ও ক্যাম্পেইন">Events and campaigns</h3>
+        <p data-bn="ইভেন্ট, ক্যাম্পেইন ও বিজ্ঞাপনের জন্য বিশেষ ডিজাইনের ছাতা।">Special designs for events, campaigns and advertising.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process" data-v="home about">
+  <div class="wrap">
+    <div class="head rv">
+      <div><span class="kicker" data-bn="অর্ডার প্রক্রিয়া">How to order</span>
+      <h2 data-bn="লোগো থেকে ডেলিভারি, চার ধাপে">From logo to delivery in four steps</h2></div>
+      <p data-bn="WhatsApp-এ একটা মেসেজ দিয়েই শুরু করা যায়।">It starts with one WhatsApp message.</p>
+    </div>
+    <ol class="steps" id="steps">
+      <li><h3 data-bn="লোগো ও পরিমাণ পাঠান">Send your logo and quantity</h3><p data-bn="WhatsApp বা ফোনে জানান কোন ধরনের ছাতা, কত পিস দরকার।">Tell us on WhatsApp or by phone which type you need and how many pieces.</p></li>
+      <li><h3 data-bn="রং ও ডিজাইন ঠিক করুন">Fix colours and design</h3><p data-bn="ছাতার রং, সাইজ আর লোগো কোথায় বসবে তা একসাথে চূড়ান্ত হয়।">We agree on canopy colours, size and where the logo sits.</p></li>
+      <li><h3 data-bn="প্রিন্ট ও তৈরি">Printing and production</h3><p data-bn="আমাদের কারখানায় লোগো প্রিন্ট করে ছাতা তৈরি করা হয়।">Your logo is printed and the umbrellas are made in our workshop.</p></li>
+      <li><h3 data-bn="সারা দেশে ডেলিভারি">Delivery nationwide</h3><p data-bn="পাইকারি অর্ডার বাংলাদেশের যে কোনো জায়গায় পৌঁছে দেওয়া হয়।">Wholesale orders are delivered anywhere in Bangladesh.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section data-v="home about" style="background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="head rv">
+      <div><span class="kicker" data-bn="কাস্টমারের কথা">Customers say</span>
+      <h2 data-bn="যারা অর্ডার করেছেন, তাদের মতামত">What people who ordered tell us</h2></div>
+      <p data-bn="আমাদের Facebook পেজে কাস্টমারদের লেখা মন্তব্য থেকে নেওয়া।">Taken from comments customers left on our Facebook page.</p>
+    </div>
+    <div class="revs">
+      <figure class="rev rv"><blockquote lang="bn">ছাতার প্রিন্ট দেখে আমি সন্তুষ্ট, বাজেটের মধ্যে ভালো সার্ভিস পেয়েছি, দামের তুলনায় ভ্যালু ফর মানি, যোগাযোগ ও সার্ভিস দুটোই ভালো ছিল</blockquote><figcaption><b>Ashiqul Islam</b><span data-bn="Facebook মন্তব্য">Facebook comment</span></figcaption></figure>
+      <figure class="rev rv"><blockquote lang="bn">আপনি যদি সাশ্রয়ী বাজেটে ভালো মানের কাস্টমাইজড ছাতা তৈরি করতে চান, তবে এটি একটি অত্যন্ত নির্ভরযোগ্য প্রতিষ্ঠান।</blockquote><figcaption><b>Muhammad Sohidul Islam</b><span data-bn="Facebook মন্তব্য">Facebook comment</span></figcaption></figure>
+      <figure class="rev stat rv"><strong>100%</strong><p data-bn="ফেসবুকে ২০৩টি রিভিউয়ে রিকমেন্ড করা হয়েছে।">recommended across 203 reviews on Facebook.</p><a href="https://www.facebook.com/sardersumbrellaproviderbd/" target="_blank" rel="noopener" data-bn="Facebook-এ সব রিভিউ পড়ুন →">Read all reviews on Facebook →</a></figure>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG TEASER (home) -->
+<section data-v="home">
+  <div class="wrap">
+    <div class="head rv">
+      <div><span class="kicker" data-bn="ব্লগ">Blog</span>
+      <h2 data-bn="অর্ডার দেওয়ার আগে পড়ে নিন">Read before you order</h2></div>
+      <p data-bn="প্রমোশনাল ছাতা বাছাই, লোগো প্রিন্ট আর অর্ডারের সময় নিয়ে ছোট ছোট গাইড।">Short guides on choosing promotional umbrellas, logo printing and timing your order.</p>
+    </div>
+    <div class="posts" id="blog-teaser"></div>
+    <a class="more" href="#blog"><span data-bn="সব লেখা পড়ুন">Read all articles</span> →</a>
+  </div>
+</section>
+
+<!-- BLOG LIST -->
+<section data-v="blog">
+  <div class="wrap">
+    <div class="posts all" id="blog-list"></div>
+  </div>
+</section>
+
+<!-- ARTICLES -->
+<article class="post" id="post-walking-billboard" hidden>
+  <div class="wrap">
+    <a class="back" href="#blog">← <span data-bn="সব লেখা">All articles</span></a>
+    <div class="l-en" lang="en">
+      <h1>Why a promotional umbrella keeps advertising long after the campaign ends</h1>
+      <p class="meta">Hollister Corporation · 4 min read</p>
+      <p>Most advertising stops working the day you stop paying for it. A poster comes down, a boosted post ends, a leaflet goes in the bin. An umbrella is different, because the person who receives it keeps using it.</p>
+      <h2>It goes where your customers go</h2>
+      <p>A billboard reaches only the people who pass one road. An umbrella leaves the shop with a dealer, crosses the bazaar, waits at a bus stand and stands open outside an office. Every time it opens, your logo is at eye level for everyone nearby.</p>
+      <h2>People keep it</h2>
+      <p>In Bangladesh an umbrella is used in the rain and in the summer sun, so it is needed for much of the year. A useful gift is not thrown away. That is why companies choose umbrellas for dealer programmes, retailer gifts and field staff.</p>
+      <h2>The print area is large</h2>
+      <p>A pen or a keyring gives your logo a few millimetres. A straight umbrella gives you eight wide panels. You can repeat the logo, add a slogan, or use two brand colours on alternating panels so the umbrella is recognisable from a distance.</p>
+      <h2>What makes it work</h2>
+      <ul>
+        <li>Use your real brand colours on the canopy, not a random stock colour.</li>
+        <li>Keep the logo big and simple so it reads from across a street.</li>
+        <li>Choose a frame that survives wind. A broken umbrella carries your name too.</li>
+      </ul>
+      <p>If you are planning a campaign, send us your logo and quantity and we will quote for it.</p>
+    </div>
+    <div class="l-bn" lang="bn">
+      <h1>ক্যাম্পেইন শেষ হওয়ার পরেও প্রমোশনাল ছাতা কেন বিজ্ঞাপন চালিয়ে যায়</h1>
+      <p class="meta">হলিস্টার কর্পোরেশন · ৪ মিনিটের লেখা</p>
+      <p>বেশিরভাগ বিজ্ঞাপন টাকা দেওয়া বন্ধ করলেই থেমে যায়। পোস্টার নেমে যায়, বুস্ট করা পোস্ট শেষ হয়, লিফলেট ডাস্টবিনে যায়। ছাতা আলাদা, কারণ যিনি এটা পান তিনি এটা ব্যবহার করতে থাকেন।</p>
+      <h2>আপনার কাস্টমার যেখানে যায়, ছাতাও সেখানে যায়</h2>
+      <p>বিলবোর্ড শুধু একটা রাস্তার মানুষের কাছে পৌঁছায়। ছাতা ডিলারের সাথে দোকান থেকে বের হয়, বাজার পার হয়, বাসস্ট্যান্ডে দাঁড়ায়, অফিসের সামনে খোলা থাকে। যতবার খোলে, আশপাশের সবার চোখের সামনে আপনার লোগো থাকে।</p>
+      <h2>মানুষ এটা রেখে দেয়</h2>
+      <p>বাংলাদেশে ছাতা বৃষ্টিতেও লাগে, গরমের রোদেও লাগে, তাই বছরের অনেকটা সময় এর দরকার হয়। কাজের জিনিস কেউ ফেলে দেয় না। এজন্যই কোম্পানিগুলো ডিলার প্রোগ্রাম, রিটেইলার গিফট আর মাঠকর্মীদের জন্য ছাতা বেছে নেয়।</p>
+      <h2>প্রিন্টের জায়গা অনেক বড়</h2>
+      <p>কলম বা চাবির রিংয়ে লোগোর জন্য কয়েক মিলিমিটার জায়গা থাকে। একটা সোজা ছাতায় থাকে আটটা চওড়া প্যানেল। লোগো বারবার বসানো যায়, স্লোগান দেওয়া যায়, অথবা দুই রঙের প্যানেল ব্যবহার করে দূর থেকেই ব্র্যান্ড চেনানো যায়।</p>
+      <h2>যা খেয়াল রাখলে কাজ হয়</h2>
+      <ul>
+        <li>ছাতায় আপনার ব্র্যান্ডের আসল রং ব্যবহার করুন।</li>
+        <li>লোগো বড় আর সহজ রাখুন, যাতে রাস্তার ওপার থেকেও পড়া যায়।</li>
+        <li>বাতাসে টেকে এমন ফ্রেম নিন। ভাঙা ছাতাতেও আপনার নামই থাকে।</li>
+      </ul>
+      <p>ক্যাম্পেইনের পরিকল্পনা থাকলে লোগো আর পরিমাণ পাঠান, আমরা দাম জানিয়ে দেবো।</p>
+    </div>
+  </div>
+</article>
+
+<article class="post" id="post-corporate-gift-type" hidden>
+  <div class="wrap">
+    <a class="back" href="#blog">← <span data-bn="সব লেখা">All articles</span></a>
+    <div class="l-en" lang="en">
+      <h1>Straight, folding or auto-fold: which umbrella suits your corporate gift</h1>
+      <p class="meta">Hollister Corporation · 3 min read</p>
+      <p>The right umbrella depends on who will carry it. Start with the person, then pick the type.</p>
+      <h2>Straight promotional umbrella</h2>
+      <p>This is the large umbrella you see outside shops and in dealer programmes. It has the biggest print area and is the easiest to notice from far away. Choose it when visibility matters most: retailers, field teams, market campaigns and events.</p>
+      <h2>Folding umbrella</h2>
+      <p>A folding umbrella fits in an office bag, so it suits staff and clients who commute. The canopy is smaller, so keep the logo simple. A UV-coated canopy makes it useful in the summer sun as well as the rain.</p>
+      <h2>Auto-fold umbrella</h2>
+      <p>It opens and closes with one button and feels like a finished product in the hand. Choose it for gifts where the impression matters: senior clients, annual gifts and gift boxes.</p>
+      <h2>A quick way to decide</h2>
+      <ul>
+        <li>Want to be seen in the market: straight umbrella.</li>
+        <li>Giving to office staff: folding umbrella.</li>
+        <li>Giving to important clients: auto-fold umbrella.</li>
+      </ul>
+      <p>Many companies order two types in one run, one for dealers and one for their own team. Tell us the mix you need and we will quote for both.</p>
+    </div>
+    <div class="l-bn" lang="bn">
+      <h1>সোজা, ফোল্ডিং নাকি অটো ফোল্ড: কর্পোরেট গিফটের জন্য কোন ছাতা মানাবে</h1>
+      <p class="meta">হলিস্টার কর্পোরেশন · ৩ মিনিটের লেখা</p>
+      <p>কোন ছাতা ঠিক হবে তা নির্ভর করে কে এটা ব্যবহার করবে তার ওপর। আগে মানুষটাকে ভাবুন, তারপর ধরন বাছুন।</p>
+      <h2>সোজা প্রমোশনাল ছাতা</h2>
+      <p>দোকানের সামনে আর ডিলার প্রোগ্রামে যে বড় ছাতা দেখা যায়, এটা সেটাই। এতে প্রিন্টের জায়গা সবচেয়ে বেশি, দূর থেকেও চোখে পড়ে। রিটেইলার, মাঠকর্মী, বাজারের ক্যাম্পেইন আর ইভেন্টের জন্য এটা নিন।</p>
+      <h2>ফোল্ডিং ছাতা</h2>
+      <p>ফোল্ডিং ছাতা অফিস ব্যাগে ঢুকে যায়, তাই যাতায়াত করা কর্মী ও ক্লায়েন্টদের জন্য ভালো। ছাতা ছোট বলে লোগো সহজ রাখুন। ইউভি কোটিং থাকলে গরমের রোদেও কাজে লাগে।</p>
+      <h2>অটো ফোল্ড ছাতা</h2>
+      <p>এক বোতামে খোলে ও বন্ধ হয়, হাতে নিলেই ভালো মানের জিনিস মনে হয়। সিনিয়র ক্লায়েন্ট, বার্ষিক গিফট আর গিফট বক্সের জন্য এটা মানানসই।</p>
+      <h2>সহজে সিদ্ধান্ত নিন</h2>
+      <ul>
+        <li>বাজারে চোখে পড়তে চান: সোজা ছাতা।</li>
+        <li>অফিসের কর্মীদের দেবেন: ফোল্ডিং ছাতা।</li>
+        <li>গুরুত্বপূর্ণ ক্লায়েন্টকে দেবেন: অটো ফোল্ড ছাতা।</li>
+      </ul>
+      <p>অনেক কোম্পানি এক অর্ডারে দুই ধরনের ছাতা নেয়, একটা ডিলারদের জন্য আর একটা নিজেদের টিমের জন্য। কোনটা কত পিস লাগবে জানান, দুটোরই দাম জানিয়ে দেবো।</p>
+    </div>
+  </div>
+</article>
+
+<article class="post" id="post-logo-print-checklist" hidden>
+  <div class="wrap">
+    <a class="back" href="#blog">← <span data-bn="সব লেখা">All articles</span></a>
+    <div class="l-en" lang="en">
+      <h1>Six things to have ready before you order logo-printed umbrellas</h1>
+      <p class="meta">Hollister Corporation · 3 min read</p>
+      <p>An order moves fastest when the first message already has what the factory needs. Keep these six things ready.</p>
+      <h2>1. A clean logo file</h2>
+      <p>Send the original file from your designer: AI, PDF or a large PNG. A logo copied from a Facebook profile picture is small and prints with rough edges.</p>
+      <h2>2. Your brand colours</h2>
+      <p>Decide the canopy colour first. A dark logo needs a light panel and a light logo needs a dark panel. If your brand has two colours, alternating panels show both.</p>
+      <h2>3. Where the logo sits</h2>
+      <p>The logo can go on one panel, on every second panel, or on all of them. More panels means the logo is visible from every side.</p>
+      <h2>4. The quantity</h2>
+      <p>We sell wholesale, so the price depends on how many pieces you take. Give a number even if it is an estimate.</p>
+      <h2>5. Your deadline</h2>
+      <p>Tell us the date of your event or programme at the start. Printing and production take time, and a known deadline lets us tell you honestly whether it can be met.</p>
+      <h2>6. The delivery address</h2>
+      <p>We deliver across Bangladesh. One address or several, say so early so delivery can be planned with the order.</p>
+      <p>With these six ready, one WhatsApp message is enough to get your quote.</p>
+    </div>
+    <div class="l-bn" lang="bn">
+      <h1>লোগো প্রিন্টের ছাতা অর্ডার দেওয়ার আগে যে ছয়টা জিনিস তৈরি রাখবেন</h1>
+      <p class="meta">হলিস্টার কর্পোরেশন · ৩ মিনিটের লেখা</p>
+      <p>প্রথম মেসেজেই কারখানার দরকারি তথ্য থাকলে অর্ডার সবচেয়ে দ্রুত এগোয়। এই ছয়টা জিনিস তৈরি রাখুন।</p>
+      <h2>১. পরিষ্কার লোগো ফাইল</h2>
+      <p>ডিজাইনারের দেওয়া আসল ফাইল পাঠান: AI, PDF অথবা বড় সাইজের PNG। ফেসবুক প্রোফাইল ছবি থেকে নেওয়া লোগো ছোট হয়, প্রিন্টে কিনারা ভেঙে যায়।</p>
+      <h2>২. ব্র্যান্ডের রং</h2>
+      <p>আগে ছাতার রং ঠিক করুন। গাঢ় লোগোর জন্য হালকা প্যানেল, হালকা লোগোর জন্য গাঢ় প্যানেল লাগে। ব্র্যান্ডে দুই রং থাকলে পাশাপাশি প্যানেলে দুটোই দেখানো যায়।</p>
+      <h2>৩. লোগো কোথায় বসবে</h2>
+      <p>লোগো এক প্যানেলে, এক প্যানেল পরপর, অথবা সব প্যানেলে বসানো যায়। যত বেশি প্যানেলে থাকবে, তত দিক থেকে লোগো দেখা যাবে।</p>
+      <h2>৪. পরিমাণ</h2>
+      <p>আমরা পাইকারি বিক্রি করি, তাই দাম নির্ভর করে কত পিস নিচ্ছেন তার ওপর। আনুমানিক হলেও একটা সংখ্যা জানান।</p>
+      <h2>৫. কবে লাগবে</h2>
+      <p>ইভেন্ট বা প্রোগ্রামের তারিখ শুরুতেই জানান। প্রিন্ট আর তৈরিতে সময় লাগে, তারিখ জানা থাকলে আমরা পরিষ্কার বলতে পারি সময়মতো হবে কিনা।</p>
+      <h2>৬. ডেলিভারির ঠিকানা</h2>
+      <p>আমরা সারা বাংলাদেশে ডেলিভারি দিই। এক ঠিকানা না কয়েকটা, আগে জানালে অর্ডারের সাথেই ডেলিভারির পরিকল্পনা করা যায়।</p>
+      <p>এই ছয়টা তৈরি থাকলে কোটেশন পেতে WhatsApp-এ একটা মেসেজই যথেষ্ট।</p>
+    </div>
+  </div>
+</article>
+
+<article class="post" id="post-monsoon-timing" hidden>
+  <div class="wrap">
+    <a class="back" href="#blog">← <span data-bn="সব লেখা">All articles</span></a>
+    <div class="l-en" lang="en">
+      <h1>When to order umbrellas for a monsoon campaign</h1>
+      <p class="meta">Hollister Corporation · 3 min read</p>
+      <p>The best time to hand out an umbrella is the week before people need one. That means the order has to be placed well before the first rain.</p>
+      <h2>Work backwards from the rain</h2>
+      <p>The monsoon in Bangladesh usually runs from June to September, with showers starting earlier. If your umbrellas should reach dealers before the season, they need to be printed, made and delivered before then. Count back from that date, not from the day the rain starts.</p>
+      <h2>Everyone orders at the same time</h2>
+      <p>Demand for umbrellas rises sharply just before the monsoon. Orders placed early get planned calmly. Orders placed at the last minute compete with everyone else's.</p>
+      <h2>Summer counts too</h2>
+      <p>In the hot months people open umbrellas against the sun. A campaign that hands out umbrellas in spring gets used through summer and again through the rains, so the same gift works for two seasons.</p>
+      <h2>A simple plan</h2>
+      <ul>
+        <li>Fix your quantity and budget first.</li>
+        <li>Finalise the logo and colours next.</li>
+        <li>Place the order and ask us for the current production time.</li>
+        <li>Plan delivery to your dealers or branches before the season opens.</li>
+      </ul>
+      <p>Message us with your target date and we will tell you what is possible.</p>
+    </div>
+    <div class="l-bn" lang="bn">
+      <h1>বর্ষার ক্যাম্পেইনের জন্য ছাতার অর্ডার কখন দেবেন</h1>
+      <p class="meta">হলিস্টার কর্পোরেশন · ৩ মিনিটের লেখা</p>
+      <p>ছাতা দেওয়ার সেরা সময় হলো মানুষের দরকার পড়ার ঠিক আগের সপ্তাহ। তার মানে প্রথম বৃষ্টির অনেক আগেই অর্ডার দিতে হবে।</p>
+      <h2>বৃষ্টি থেকে পেছনে হিসাব করুন</h2>
+      <p>বাংলাদেশে বর্ষা সাধারণত জুন থেকে সেপ্টেম্বর, বৃষ্টি শুরু হয় তারও আগে। মৌসুমের আগে ডিলারদের হাতে ছাতা পৌঁছাতে চাইলে প্রিন্ট, তৈরি আর ডেলিভারি তার আগেই শেষ হতে হবে। হিসাবটা ওই তারিখ থেকে পেছনে করুন, বৃষ্টি শুরুর দিন থেকে নয়।</p>
+      <h2>সবাই একই সময়ে অর্ডার দেয়</h2>
+      <p>বর্ষার ঠিক আগে ছাতার চাহিদা অনেক বেড়ে যায়। আগে দেওয়া অর্ডার ধীরেসুস্থে পরিকল্পনা করা যায়। শেষ মুহূর্তের অর্ডারকে বাকি সবার অর্ডারের সাথে পাল্লা দিতে হয়।</p>
+      <h2>গরমকালও হিসাবে ধরুন</h2>
+      <p>গরমের মাসগুলোতে মানুষ রোদ থেকে বাঁচতে ছাতা খোলে। বসন্তে দেওয়া ছাতা গরমকাল জুড়ে ব্যবহার হয়, বর্ষাতেও হয়। একই গিফট দুই মৌসুমে কাজ করে।</p>
+      <h2>সহজ পরিকল্পনা</h2>
+      <ul>
+        <li>আগে পরিমাণ আর বাজেট ঠিক করুন।</li>
+        <li>তারপর লোগো আর রং চূড়ান্ত করুন।</li>
+        <li>অর্ডার দিন, আর এখন তৈরিতে কত সময় লাগছে জেনে নিন।</li>
+        <li>মৌসুম শুরুর আগেই ডিলার বা শাখায় ডেলিভারির পরিকল্পনা করুন।</li>
+      </ul>
+      <p>কোন তারিখের মধ্যে লাগবে জানিয়ে মেসেজ দিন, কী সম্ভব আমরা জানিয়ে দেবো।</p>
+    </div>
+  </div>
+</article>
+
+<!-- CTA BAND -->
+<div class="band" data-v="home umbrellas about blog post">
+  <div class="wrap">
+    <h2 data-bn="কত পিস লাগবে জানান, দাম জানিয়ে দিচ্ছি।">Tell us how many you need and we will quote.</h2>
+    <div class="cta">
+      <a class="btn navy" href="#contact"><span data-bn="কোটেশন ফর্ম">Quote form</span></a>
+      <a class="btn line" href="https://wa.me/8801410340395" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section class="quote" data-v="contact">
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <span class="kicker" data-bn="যোগাযোগ">Contact</span>
+        <h2 class="h2" data-bn="সরাসরি কথা বলুন">Talk to us directly</h2>
+        <ul class="contact-list">
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg></span>
+            <div><small data-bn="কল করুন">Call</small><a href="tel:+8801817003111">+880 1817-003111</a></div></li>
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7L4 20Z"/></svg></span>
+            <div><small>WhatsApp</small><a href="https://wa.me/8801410340395" target="_blank" rel="noopener">+880 1410-340395</a></div></li>
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18v12H3zM3 7l9 6 9-6"/></svg></span>
+            <div><small data-bn="ইমেইল">Email</small><a href="mailto:brandbrolly@gmail.com">brandbrolly@gmail.com</a></div></li>
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+            <div><small data-bn="ঠিকানা">Address</small><span class="v" data-bn="৮৮/৮৯ চক মোগলটুলি, চকবাজার, ঢাকা-১২১১">88/89 Chawkmogultuly, Chawkbazar, Dhaka-1211</span><br>
+            <a style="font:500 15px var(--body);color:var(--royal)" href="https://www.google.com/maps/search/?api=1&query=88%2F89+Chawkmogultuly+Chawkbazar+Dhaka+1211" target="_blank" rel="noopener" data-bn="Google Maps-এ দেখুন">Open in Google Maps</a></div></li>
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5H16l.5-3h-3V8.6c0-.9.3-1.6 1.6-1.6h1.5V4.3c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.4H8v3h2.5V21h3Z"/></svg></span>
+            <div><small>Facebook</small><a href="https://www.facebook.com/sardersumbrellaproviderbd/" target="_blank" rel="noopener">Hollister Corporation</a></div></li>
+        </ul>
+      </div>
+
+      <div class="form" id="quote-form">
+        <h3 data-bn="কোটেশনের জন্য লিখুন">Request a quote</h3>
+        <label><span data-bn="আপনার নাম">Your name</span><input id="f-name" type="text" autocomplete="name"></label>
+        <label><span data-bn="প্রতিষ্ঠানের নাম">Company</span><input id="f-company" type="text" autocomplete="organization"></label>
+        <label><span data-bn="ছাতার ধরন">Umbrella type</span>
+          <select id="f-type">
+            <option value="Promotional logo umbrella" data-bn="প্রমোশনাল লোগো ছাতা">Promotional logo umbrella</option>
+            <option value="Folding UV umbrella" data-bn="ফোল্ডিং ইউভি ছাতা">Folding UV umbrella</option>
+            <option value="Auto-fold umbrella" data-bn="অটো ফোল্ড ছাতা">Auto-fold umbrella</option>
+            <option value="Not sure yet" data-bn="এখনো ঠিক করিনি">Not sure yet</option>
+          </select></label>
+        <label><span data-bn="পরিমাণ (পিস)">Quantity (pieces)</span><input id="f-qty" type="number" min="1" inputmode="numeric"></label>
+        <label class="full"><span data-bn="আর কিছু জানাতে চাইলে">Anything else we should know</span><textarea id="f-msg"></textarea></label>
+        <div class="pick"><span data-bn="হোম পেজে বেছে নেওয়া রং:">Colours you picked on the home page:</span> <b id="pick-out"></b></div>
+        <a class="btn gold" id="wa-send" href="https://wa.me/8801410340395" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12 20 4l-5 16-3-7-8-1Z"/></svg>
+          <span data-bn="WhatsApp-এ পাঠান">Send on WhatsApp</span></a>
+        <p class="fine" data-bn="বোতামে চাপ দিলে আপনার লেখা তথ্যসহ WhatsApp খুলবে। সেখান থেকে মেসেজটি পাঠিয়ে দিন।">The button opens WhatsApp with your details filled in. Send the message from there.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <img src="img/logo.png" alt="Hollister Corporation" width="640" height="420" loading="lazy">
+        <p class="tag" data-bn="মান · স্টাইল · সুরক্ষা">Quality · Style · Protection</p>
+        <p style="margin-top:10px;max-width:30em" data-bn="হলিস্টার কর্পোরেশন লোগোসহ কাস্টমাইজড ছাতার পাইকারি প্রস্তুতকারক ও সরবরাহকারী।">Hollister Corporation is a wholesale manufacturer and supplier of custom logo umbrellas.</p>
+      </div>
+      <div>
+        <h3 data-bn="পেজ">Pages</h3>
+        <ul>
+          <li><a href="#home" data-bn="হোম">Home</a></li>
+          <li><a href="#umbrellas" data-bn="ছাতা">Umbrellas</a></li>
+          <li><a href="#about" data-bn="আমাদের সম্পর্কে">About</a></li>
+          <li><a href="#blog" data-bn="ব্লগ">Blog</a></li>
+          <li><a href="#contact" data-bn="যোগাযোগ">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-bn="যোগাযোগ">Contact</h3>
+        <ul>
+          <li><a href="tel:+8801817003111">+880 1817-003111</a></li>
+          <li><a href="https://wa.me/8801410340395" target="_blank" rel="noopener">WhatsApp +880 1410-340395</a></li>
+          <li><a href="mailto:brandbrolly@gmail.com">brandbrolly@gmail.com</a></li>
+          <li data-bn="৮৮/৮৯ চক মোগলটুলি, চকবাজার, ঢাকা-১২১১">88/89 Chawkmogultuly, Chawkbazar, Dhaka-1211</li>
+          <li><a href="https://www.facebook.com/sardersumbrellaproviderbd/" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="base"><span>© <span id="yr">2026</span> Hollister Corporation</span><span data-bn="শুধুমাত্র পাইকারি বিক্রয়">Wholesale sales only</span></div>
+  </div>
+</footer>
+
+<a class="float" href="https://wa.me/8801410340395" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7L4 20Z"/><path d="M9 10c0 3 2 5 5 5"/></svg>
+</a>
+
+<div id="lb" hidden role="dialog" aria-modal="true" aria-label="Photo">
+  <button type="button" id="lb-close" aria-label="Close">×</button>
+  <figure><img id="lb-img" alt=""><figcaption id="lb-cap"></figcaption></figure>
+</div>
+
+<script>
+(function(){
+  var WA = "https://wa.me/8801410340395";
+  var REDUCED = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var COLORS = [
+    {id:"navy",  hex:"#12307f", en:"Navy",   bn:"নেভি"},
+    {id:"white", hex:"#f4f5f7", en:"White",  bn:"সাদা"},
+    {id:"red",   hex:"#d3202f", en:"Red",    bn:"লাল"},
+    {id:"yellow",hex:"#f5c518", en:"Yellow", bn:"হলুদ"},
+    {id:"green", hex:"#1f8a4c", en:"Green",  bn:"সবুজ"},
+    {id:"black", hex:"#17181c", en:"Black",  bn:"কালো"},
+    {id:"sky",   hex:"#3aa0e8", en:"Sky blue",bn:"আকাশি"},
+    {id:"maroon",hex:"#8c1f3f", en:"Maroon", bn:"মেরুন"}
+  ];
+  var POSTS = [
+    {id:"post-walking-billboard", a:"navy", b:"yellow", min:4,
+     en:"Why a promotional umbrella keeps advertising long after the campaign ends",
+     bn:"ক্যাম্পেইন শেষ হওয়ার পরেও প্রমোশনাল ছাতা কেন বিজ্ঞাপন চালিয়ে যায়",
+     xen:"Posters come down and boosted posts end. An umbrella keeps opening with your logo on it.",
+     xbn:"পোস্টার নেমে যায়, বুস্ট শেষ হয়। ছাতা আপনার লোগো নিয়ে বারবার খুলতে থাকে।"},
+    {id:"post-corporate-gift-type", a:"red", b:"white", min:3,
+     en:"Straight, folding or auto-fold: which umbrella suits your corporate gift",
+     bn:"সোজা, ফোল্ডিং নাকি অটো ফোল্ড: কর্পোরেট গিফটের জন্য কোন ছাতা মানাবে",
+     xen:"Start with who will carry it, then pick the type.",
+     xbn:"আগে ভাবুন কে ব্যবহার করবে, তারপর ধরন বাছুন।"},
+    {id:"post-logo-print-checklist", a:"green", b:"white", min:3,
+     en:"Six things to have ready before you order logo-printed umbrellas",
+     bn:"লোগো প্রিন্টের ছাতা অর্ডার দেওয়ার আগে যে ছয়টা জিনিস তৈরি রাখবেন",
+     xen:"Logo file, colours, placement, quantity, deadline and delivery address.",
+     xbn:"লোগো ফাইল, রং, লোগোর জায়গা, পরিমাণ, তারিখ আর ডেলিভারির ঠিকানা।"},
+    {id:"post-monsoon-timing", a:"black", b:"sky", min:3,
+     en:"When to order umbrellas for a monsoon campaign",
+     bn:"বর্ষার ক্যাম্পেইনের জন্য ছাতার অর্ডার কখন দেবেন",
+     xen:"Count back from the first rain, not from the day it starts.",
+     xbn:"হিসাবটা প্রথম বৃষ্টি থেকে পেছনে করুন।"}
+  ];
+  var VIEWS = {
+    home:{},
+    umbrellas:{en:"Umbrellas",bn:"ছাতা",sen:"The types we make and recent logo print work.",sbn:"আমরা যে ধরনের ছাতা তৈরি করি এবং সাম্প্রতিক লোগো প্রিন্টের কাজ।"},
+    about:{en:"About Hollister Corporation",bn:"হলিস্টার কর্পোরেশন সম্পর্কে",sen:"Wholesale umbrella manufacturer and supplier in Chawkbazar, Dhaka.",sbn:"ঢাকার চকবাজারের পাইকারি ছাতা প্রস্তুতকারক ও সরবরাহকারী।"},
+    blog:{en:"Blog",bn:"ব্লগ",sen:"Guides on promotional umbrellas, logo printing and order timing.",sbn:"প্রমোশনাল ছাতা, লোগো প্রিন্ট আর অর্ডারের সময় নিয়ে গাইড।"},
+    contact:{en:"Get a quote",bn:"কোটেশন নিন",sen:"Send your details on WhatsApp or call us.",sbn:"WhatsApp-এ তথ্য পাঠান অথবা কল করুন।"}
+  };
+  var state = {a:"navy", b:"white", text:"YOUR LOGO", lang:"en", view:"home", logo:null};
+  var $ = function(id){return document.getElementById(id);};
+  var all = function(s,r){return [].slice.call((r||document).querySelectorAll(s));};
+  function col(id){for(var i=0;i<COLORS.length;i++) if(COLORS[i].id===id) return COLORS[i];}
+  function lum(hex){var n=parseInt(hex.slice(1),16),r=n>>16,g=n>>8&255,b=n&255;return (0.299*r+0.587*g+0.114*b)/255;}
+  function esc(s){return s.replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+
+  /* ---------- umbrella geometry ---------- */
+  var R=205, RAD=Math.PI/180;
+  function panelPath(k){
+    var a1=(k*45-22.5-90)*RAD, a2=(k*45+22.5-90)*RAD, am=(k*45-90)*RAD;
+    var p=function(r,a){return (r*Math.cos(a)).toFixed(1)+" "+(r*Math.sin(a)).toFixed(1);};
+    return {full:"M0 0L"+p(R,a1)+"Q"+p(R*.83,am)+" "+p(R,a2)+"Z", edge:"Q"+p(R*.83,am)+" "+p(R,a2), start:p(R,a1)};
+  }
+  function ribs(){
+    var o="";
+    for(var k=0;k<8;k++){
+      var a=(k*45-22.5-90)*RAD, x=(R*Math.cos(a)).toFixed(1), y=(R*Math.sin(a)).toFixed(1);
+      o+='<line x1="0" y1="0" x2="'+x+'" y2="'+y+'" stroke="rgba(0,0,0,.28)" stroke-width="1.4"/><circle cx="'+x+'" cy="'+y+'" r="4.5" fill="#d9dde6" stroke="rgba(0,0,0,.35)"/>';
+    }
+    return o;
+  }
+  function shade(id){
+    var edge="";
+    for(var k=0;k<8;k++){var pp=panelPath(k); edge+=(k?"":"M"+pp.start)+pp.edge;}
+    return '<defs><radialGradient id="'+id+'" cx="38%" cy="32%" r="80%"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></radialGradient></defs><path d="'+edge+'Z" fill="url(#'+id+')" pointer-events="none"/>';
+  }
+  function miniSVG(a,b,uid){
+    var o='<svg viewBox="-240 -240 480 480" aria-hidden="true">';
+    for(var k=0;k<8;k++) o+='<path d="'+panelPath(k).full+'" fill="'+col(k%2?b:a).hex+'"/>';
+    return o+shade("sh-"+uid)+ribs()+'<circle r="13" fill="#1b1d24"/></svg>';
+  }
+
+  var pans=[], logos=[], limgs=[];
+  function buildBrolly(){
+    var o='<g id="spin"><g id="opener">';
+    for(var k=0;k<8;k++) o+='<path class="pan" style="animation-delay:'+(0.25+k*0.07).toFixed(2)+'s" d="'+panelPath(k).full+'"/>';
+    o+=shade("sh-hero")+ribs();
+    for(k=1;k<8;k+=2) o+='<g transform="rotate('+(k*45)+')"><text class="lg" style="animation-delay:'+(1.2+k*0.08).toFixed(2)+'s" x="0" y="-118" text-anchor="middle" font-family="Anek Bangla,Hind Siliguri,sans-serif" font-weight="800" letter-spacing=".5"></text><image class="lgi" x="-44" y="-158" width="88" height="66" preserveAspectRatio="xMidYMid meet" style="display:none"></image></g>';
+    o+='<circle r="13" fill="#1b1d24"/><circle r="5" fill="#8d93a3"/></g></g>';
+    $("brolly").innerHTML=o;
+    pans=all("#brolly .pan"); logos=all("#brolly .lg"); limgs=all("#brolly .lgi");
+  }
+  function paintBrolly(){
+    pans.forEach(function(p,k){
+      p.style.transitionDelay=(k*0.05)+"s";
+      p.style.fill=col(k%2?state.b:state.a).hex;
+    });
+    var t=(state.text||"").trim();
+    var fs=Math.min(19,150/Math.max(t.length,5));
+    var ink=lum(col(state.b).hex)>.6?"#101a3a":"#ffffff";
+    logos.forEach(function(l){l.textContent=t;l.setAttribute("font-size",fs.toFixed(1));l.style.fill=ink;l.style.display=state.logo?"none":"";});
+    limgs.forEach(function(im){
+      if(state.logo){im.setAttribute("href",state.logo);im.style.display="";}
+      else{im.removeAttribute("href");im.style.display="none";}
+    });
+  }
+
+  function swatches(which){
+    var box=$("sw-"+which); box.innerHTML="";
+    COLORS.forEach(function(c){
+      var b=document.createElement("button");
+      b.type="button"; b.style.background=c.hex;
+      b.setAttribute("aria-label",c[state.lang]); b.title=c[state.lang];
+      b.setAttribute("aria-pressed",String(state[which]===c.id));
+      b.addEventListener("click",function(){state[which]=c.id;paintBrolly();swatches("a");swatches("b");updateLinks();});
+      box.appendChild(b);
+    });
+  }
+  function pickLabel(lang){return col(state.a)[lang]+" + "+col(state.b)[lang];}
+
+  function updateLinks(){
+    var v=function(id){return $(id).value.trim();};
+    var lines=["Hello Hollister Corporation, I would like a quote for custom umbrellas."];
+    if(v("f-name")) lines.push("Name: "+v("f-name"));
+    if(v("f-company")) lines.push("Company: "+v("f-company"));
+    lines.push("Umbrella type: "+$("f-type").value);
+    if(v("f-qty")) lines.push("Quantity: "+v("f-qty")+" pcs");
+    lines.push("Colours: "+pickLabel("en"));
+    var t=state.text.trim();
+    if(state.logo) lines.push("Logo: I will send the logo file in this chat.");
+    else if(t && t!=="YOUR LOGO") lines.push("Logo text: "+t);
+    if(v("f-msg")) lines.push("Details: "+v("f-msg"));
+    $("wa-send").href=WA+"?text="+encodeURIComponent(lines.join("\n"));
+    $("wa-hero").href=WA+"?text="+encodeURIComponent("Hello Hollister Corporation, I would like a quote for custom umbrellas. Colours: "+pickLabel("en")+".");
+    $("pick-out").textContent=pickLabel(state.lang);
+  }
+
+  /* ---------- blog cards ---------- */
+  function cards(list, box, tag){
+    var L=state.lang;
+    box.innerHTML=list.map(function(p,i){
+      return '<a class="pcard" href="#'+p.id+'"><div class="cv">'+miniSVG(p.a,p.b,tag+i)+'<span>'+(L==="bn"?"গাইড":"Guide")+'</span></div><div class="tx"><h3>'+p[L]+'</h3><p>'+(L==="bn"?p.xbn:p.xen)+'</p><i>'+(L==="bn"?"পড়ুন →":"Read →")+'</i></div></a>';
+    }).join("");
+  }
+  function renderBlog(){cards(POSTS.slice(0,3),$("blog-teaser"),"t");cards(POSTS,$("blog-list"),"l");}
+
+  /* ---------- work belt ---------- */
+  (function(){
+    var srcs=["work-red-white","work-golf-yellow","work-green","work-two-tone-red","uv-fold"];
+    var h="";
+    for(var r=0;r<2;r++) srcs.forEach(function(s){h+='<figure class="zoom"'+(r?' aria-hidden="true"':'')+'><img src="img/'+s+'.jpg" alt="'+(r?'':'Logo printed umbrella from our workshop')+'" loading="lazy" width="900" height="900"></figure>';});
+    $("belt").innerHTML=h;
+  })();
+
+  /* ---------- lightbox ---------- */
+  var lastFocus=null;
+  function openLB(el){
+    var img=el.querySelector("img"); if(!img) return;
+    var cap=el.querySelector("figcaption"), h3=el.parentNode.querySelector("h3");
+    $("lb-img").src=img.src; $("lb-img").alt=img.alt;
+    $("lb-cap").textContent=cap?cap.textContent:(h3?h3.textContent:"");
+    lastFocus=document.activeElement; $("lb").hidden=false; $("lb-close").focus();
+  }
+  function closeLB(){$("lb").hidden=true; if(lastFocus&&lastFocus.focus) lastFocus.focus();}
+  document.addEventListener("click",function(e){
+    var z=e.target.closest&&e.target.closest(".zoom");
+    if(z){openLB(z);return;}
+    if(e.target.id==="lb"||e.target.id==="lb-close") closeLB();
+  });
+  document.addEventListener("keydown",function(e){
+    if(e.key==="Escape"&&!$("lb").hidden) closeLB();
+    if((e.key==="Enter"||e.key===" ")&&document.activeElement&&document.activeElement.classList.contains("zoom")){e.preventDefault();openLB(document.activeElement);}
+  });
+
+  /* ---------- scroll reveal + process line ---------- */
+  var io = ("IntersectionObserver" in window) ? new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(!e.isIntersecting) return;
+      e.target.classList.remove("wait");
+      if(e.target.id==="steps") e.target.classList.add("play");
+      io.unobserve(e.target);
+    });
+  },{threshold:.15}) : null;
+  function arm(){
+    if(!io||REDUCED) return;
+    var vh=window.innerHeight;
+    all(".rv").forEach(function(el,i){
+      el.classList.remove("wait");
+      if(el.offsetParent===null) return;
+      if(el.getBoundingClientRect().top>vh*0.92){el.classList.add("wait");io.observe(el);}
+    });
+    var st=$("steps");
+    st.classList.remove("armed","play");
+    if(st.offsetParent!==null && st.getBoundingClientRect().top>vh*0.85){st.classList.add("armed");io.observe(st);}
+  }
+  // stagger siblings
+  all(".types .rv,.gallery .rv,.pillars .rv,.vids .rv,.revs .rv").forEach(function(el){
+    var i=[].indexOf.call(el.parentNode.children,el); el.style.transitionDelay=(i*0.09)+"s";
+  });
+
+  /* ---------- rain ---------- */
+  var rain=(function(){
+    var cv=$("rain"), hero=$("hero"), ctx=cv.getContext("2d"), drops=[], splashes=[], W=0,H=0,dpr=1, run=false, raf=0, zone={x:0,y:0,r:0}, tick=0;
+    var SL=-0.16;
+    function size(){
+      var r=hero.getBoundingClientRect(); dpr=Math.min(window.devicePixelRatio||1,2);
+      W=r.width; H=r.height; cv.width=W*dpr; cv.height=H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+      var n=Math.round(Math.min(150,W/9));
+      drops=[]; for(var i=0;i<n;i++) drops.push(mk(true));
+    }
+    function mk(any){return {x:Math.random()*(W+H*0.2), y:any?Math.random()*H:-30-Math.random()*80, l:10+Math.random()*16, v:7+Math.random()*7, o:.12+Math.random()*.28};}
+    function findZone(){
+      var s=$("brolly").getBoundingClientRect(), h=hero.getBoundingClientRect();
+      zone={x:s.left-h.left+s.width/2, y:s.top-h.top+s.height/2, r:s.width/2*0.84};
+    }
+    function frame(){
+      if(!run) return;
+      if(tick++%20===0) findZone();
+      ctx.clearRect(0,0,W,H);
+      ctx.lineCap="round"; ctx.lineWidth=1.2;
+      for(var i=0;i<drops.length;i++){
+        var d=drops[i]; d.y+=d.v; d.x+=d.v*SL;
+        var dx=d.x-zone.x, dy=d.y-zone.y;
+        if(dx*dx+dy*dy<zone.r*zone.r){
+          if(Math.random()<.5) splashes.push({x:d.x,y:d.y,t:0});
+          drops[i]=mk(false); continue;
+        }
+        if(d.y>H+20||d.x<-20){drops[i]=mk(false);continue;}
+        ctx.strokeStyle="rgba(180,205,255,"+d.o+")";
+        ctx.beginPath(); ctx.moveTo(d.x,d.y); ctx.lineTo(d.x-d.l*SL,d.y-d.l); ctx.stroke();
+      }
+      for(var j=splashes.length-1;j>=0;j--){
+        var s=splashes[j]; s.t++;
+        if(s.t>12){splashes.splice(j,1);continue;}
+        ctx.strokeStyle="rgba(220,232,255,"+(0.5*(1-s.t/12))+")";
+        ctx.beginPath(); ctx.arc(s.x,s.y,1+s.t*0.6,Math.PI,2*Math.PI); ctx.stroke();
+      }
+      raf=requestAnimationFrame(frame);
+    }
+    function start(){ if(REDUCED||run) return; run=true; size(); findZone(); raf=requestAnimationFrame(frame); }
+    function stop(){ run=false; cancelAnimationFrame(raf); ctx.clearRect(0,0,W,H); }
+    window.addEventListener("resize",function(){ if(run) size(); });
+    if("IntersectionObserver" in window){
+      new IntersectionObserver(function(es){ es[0].isIntersecting && state.view==="home" ? start() : stop(); }).observe(hero);
+    }
+    return {start:start,stop:stop};
+  })();
+
+  /* ---------- umbrella turns with scroll ---------- */
+  var sticking=false;
+  window.addEventListener("scroll",function(){
+    if(REDUCED||sticking||state.view!=="home") return;
+    sticking=true;
+    requestAnimationFrame(function(){
+      var sp=$("spin"); if(sp) sp.style.transform="rotate("+(window.scrollY*0.07).toFixed(1)+"deg)";
+      sticking=false;
+    });
+  },{passive:true});
+
+  /* one video at a time */
+  var vids=all("video");
+  vids.forEach(function(v){v.addEventListener("play",function(){vids.forEach(function(o){if(o!==v) o.pause();});});});
+  window.addEventListener("hashchange",function(){vids.forEach(function(o){o.pause();});});
+
+  /* ---------- router ---------- */
+  function route(){
+    var h=location.hash.replace("#",""), view="home", post=null;
+    if(/^post-/.test(h) && $(h)){view="post";post=h;}
+    else if(VIEWS[h]) view=h;
+    var changed = view!==state.view || post!==state.post;
+    state.view=view; state.post=post;
+    all("[data-v]").forEach(function(el){el.hidden = el.getAttribute("data-v").split(" ").indexOf(view)<0;});
+    all("article.post").forEach(function(a){a.hidden = a.id!==post;});
+    var ph=$("pagehead"), V=VIEWS[view];
+    ph.hidden = !(V && V.en);
+    if(V && V.en){ $("ph-title").textContent=V[state.lang]; $("ph-sub").textContent=state.lang==="bn"?V.sbn:V.sen; }
+    var T="Hollister Corporation";
+    if(view==="post"){var P=POSTS.filter(function(x){return x.id===post;})[0]; document.title=(P?P[state.lang]+" | ":"")+T;}
+    else document.title=(V&&V.en)?V[state.lang]+" | "+T:T+" Umbrellas";
+    all("#nav a").forEach(function(a){
+      var on = a.getAttribute("data-nav")===view || (view==="post" && a.getAttribute("data-nav")==="blog");
+      if(on) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current");
+    });
+    $("nav").classList.remove("open"); $("menu-btn").setAttribute("aria-expanded","false");
+    if(changed) window.scrollTo(0,0);
+    if(view==="home") rain.start(); else rain.stop();
+    arm();
+  }
+  window.addEventListener("hashchange",route);
+  $("menu-btn").addEventListener("click",function(){
+    var o=$("nav").classList.toggle("open"); this.setAttribute("aria-expanded",String(o));
+  });
+
+  /* ---------- language ---------- */
+  var nodes=all("[data-bn]").map(function(el){return {el:el,en:el.innerHTML,bn:el.getAttribute("data-bn")};});
+  var phs=all("[data-bn-ph]").map(function(el){return {el:el,en:el.placeholder,bn:el.getAttribute("data-bn-ph")};});
+  function setLang(l){
+    state.lang=l;
+    nodes.forEach(function(n){n.el.innerHTML=n[l];});
+    phs.forEach(function(n){n.el.placeholder=n[l];});
+    document.documentElement.lang=l;
+    $("lang-en").setAttribute("aria-pressed",String(l==="en"));
+    $("lang-bn").setAttribute("aria-pressed",String(l==="bn"));
+    try{localStorage.setItem("hc-lang",l);}catch(e){}
+    swatches("a");swatches("b");renderBlog();updateLinks();route();
+  }
+  $("lang-en").addEventListener("click",function(){setLang("en");});
+  $("lang-bn").addEventListener("click",function(){setLang("bn");});
+
+  var NOTE={en:"The image only shows on your screen. It is not sent anywhere.",bn:"ছবিটা শুধু আপনার স্ক্রিনে দেখায়, কোথাও পাঠানো হয় না।",
+            big:{en:"That file is over 5 MB. Please choose a smaller image.",bn:"ফাইলটা ৫ MB-এর বেশি। ছোট একটা ছবি বেছে নিন।"},
+            bad:{en:"Please choose a PNG, JPG, WEBP or SVG image.",bn:"PNG, JPG, WEBP অথবা SVG ছবি বেছে নিন।"}};
+  function note(k){$("logo-note").textContent=(NOTE[k]&&NOTE[k][state.lang])||NOTE[state.lang];}
+  $("logo-btn").addEventListener("click",function(){$("logo-file").click();});
+  $("logo-file").addEventListener("change",function(e){
+    var f=e.target.files&&e.target.files[0]; if(!f) return;
+    if(!/^image\/(png|jpeg|webp|svg\+xml)$/.test(f.type)){note("bad");return;}
+    if(f.size>5*1024*1024){note("big");return;}
+    var rd=new FileReader();
+    rd.onload=function(){state.logo=rd.result;$("logo-clear").hidden=false;note();paintBrolly();updateLinks();};
+    rd.readAsDataURL(f);
+  });
+  $("logo-clear").addEventListener("click",function(){state.logo=null;$("logo-file").value="";this.hidden=true;paintBrolly();updateLinks();});
+
+  $("logo-text").addEventListener("input",function(e){state.text=e.target.value.toUpperCase();paintBrolly();updateLinks();});
+  ["f-name","f-company","f-type","f-qty","f-msg"].forEach(function(id){$(id).addEventListener("input",updateLinks);});
+  $("yr").textContent=new Date().getFullYear();
+
+  buildBrolly(); paintBrolly();
+  var saved="en";
+  try{saved=localStorage.getItem("hc-lang")||"en";}catch(e){}
+  state.view=null;
+  setLang(saved==="bn"?"bn":"en");
+})();
+</script>
+</body>
+</html>
